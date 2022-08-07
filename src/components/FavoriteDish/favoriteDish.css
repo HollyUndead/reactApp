@@ -1,0 +1,27 @@
+.dishPlate{
+    height: 540px;
+    outline: 1px solid red;
+    margin: 2% auto;
+}
+
+img{
+    width: 35%;
+    margin-left: 32.5%;
+}
+
+.dishName{
+margin-left: 7%
+}
+
+.dishRecipte{
+  margin-top: 25px;
+  margin-left: 2%;
+  margin-right: 2%;
+  overflow-y: auto;
+  height: 46%;
+  outline: 1px solid red;
+}
+
+#delete{
+  margin-left: 80%;
+}

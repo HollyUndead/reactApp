@@ -1,12 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import RandomDish from "./components/radndomDish"
+import Plates from "./components/plate";
+import { Routes, Route, Link } from "react-router-dom";
+import "./style/style.css"
 
-function App() {
+function App() {  
   return (
-    <div className="App">
-      <h2>I create a react app</h2>
-    </div>
+    <>
+      <nav>
+          <header>
+              <Link to="/">Random dish</Link>
+      
+              <Link to="/favorite">Favorite dish</Link>
+          </header>
+      </nav>
+      <Routes>
+        <Route index element={<RandomDish />}></Route>
+        <Route path="favorite" element={<Plates />}></Route>
+      </Routes>
+    </>      
   );
 }
+
 
 export default App;

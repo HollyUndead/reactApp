@@ -1,0 +1,12 @@
+#plates{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 32%));
+    gap: 20px;
+    margin-left: 15px;
+}
+
+#CreateDish{
+    position: relative;
+    left: 80%;
+    bottom: 45px;
+}

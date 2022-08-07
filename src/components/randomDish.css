@@ -1,0 +1,45 @@
+#buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 4%;
+  }
+
+#dishName{
+  /* margin-left: 0; */
+  height: 50px;
+  text-align: center;
+}
+
+#dishRecipte{
+  margin: 25px 2%;
+}
+
+#dishPlate{
+    width: 900px;
+    height: 90%;
+    height: fit-content;
+    margin: 2% auto;
+    background: rgba(104, 104, 104, 0.377);
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
+
+img{
+  margin-top: 10px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+button{
+  padding: 3px 20px;
+  width: 160px;
+  height: 30px;
+  background: rgba(104, 104, 104, 0.377);
+  border: 0;
+  border-radius: 20px;
+}
+
+button:hover{
+  background: rgb(42 42 42 / 49%);
+}

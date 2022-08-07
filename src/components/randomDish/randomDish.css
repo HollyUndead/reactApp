@@ -1,0 +1,27 @@
+#buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 4%;
+}
+
+#dishName{
+  margin-left: 7%
+}
+
+#dishRecipte{
+  margin: 25px 2%;
+}
+
+#dishPlate{
+    width: 900px;
+    height: 90%;
+    height: fit-content;
+    border: 1px solid red;
+    margin: 2% auto;
+}
+
+img{
+    width: 35%;
+    margin-left: 32.5%;
+}
