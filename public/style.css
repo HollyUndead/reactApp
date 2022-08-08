@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    padding: 15px;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-top: 0px;
+    justify-content: space-around;
+    background: rgb(194, 194, 194);
+    height: 30px;
+    position: sticky;
+    top: 0;
+}
+  
+header>div{
+    font-size: 30px;
+}
