@@ -11,7 +11,7 @@ function App() {
           <header>
               <Link to="/">Random dish</Link>
       
-              <Link to="/favorite">Favorite dish</Link>
+              <Link to="/favorite">Favorite dishs</Link>
           </header>
       </nav>
       <Routes>
