@@ -59,7 +59,7 @@ const Plates = () =>{
         let like = localStorage.getItem('liked');
         dish.dishName = document.getElementById('DishName').value;
         dish.dishRecipte = document.getElementById('DishRecipte').value;
-        dish.img = './place.png'
+        dish.img = 'https://raw.githubusercontent.com/HollyUndead/reactApp/main/public/place.png'
         dish.id = Date.now();
         if (like === null)
         {

@@ -2,7 +2,7 @@ import React from "react";
 import RandomDish from "./components/radndomDish"
 import Plates from "./components/plate";
 import { Routes, Route, Link } from "react-router-dom";
-import "./style/style.css"
+import "./style.css"
 
 function App() {  
   return (

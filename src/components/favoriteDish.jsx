@@ -4,7 +4,7 @@ import './favoriteDish.css'
 function FavriteDishPlate({liked, remove})
 {
     let ClassNam = 'withIMG';
-    if (liked.img === './place.png')
+    if (liked.img === 'https://raw.githubusercontent.com/HollyUndead/reactApp/main/public/place.png')
     {
         ClassNam='withoutIMG'
     }
