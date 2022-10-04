@@ -9,7 +9,7 @@ function App() {
     <>
       <nav>
           <header>
-              <Link to="/">Random dish</Link>
+              <Link to="">Random dish</Link>
       
               <Link to="/favorite">Favorite dish</Link>
           </header>
