@@ -1,22 +1,25 @@
 import React from "react";
-import RandomDish from "./components/radndomDish"
 import Plates from "./components/plate";
 import { Routes, Route, Link } from "react-router-dom";
 import "./style.css"
+import RandomDish from "./components/RandomDish";
 
 function App() {  
+
+  const indexPath = 'reactApp/', favoriteList = 'reactApp/favorite';
+
   return (
     <>
       <nav>
           <header>
-              <Link to="">Random dish</Link>
+              <Link to={indexPath}>Random dish</Link>
       
-              <Link to="/favorite">Favorite dish</Link>
+              <Link to={favoriteList}>Favorite dish</Link>
           </header>
       </nav>
       <Routes>
-        <Route index element={<RandomDish />}></Route>
-        <Route path="favorite" element={<Plates />}></Route>
+        <Route path={indexPath} element={<RandomDish />}></Route>
+        <Route path={favoriteList} element={<Plates />}></Route>
       </Routes>
     </>      
   );

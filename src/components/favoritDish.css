@@ -1,0 +1,38 @@
+.dishPlate{
+    float: left;
+    height: 580px;
+    padding-bottom: 20px;
+    margin: 2% 10px 0;
+    background: rgba(104, 104, 104, 0.377);
+    width: 31.5%;
+  }
+  
+  #withIMG{
+    width: 120px;
+    height: auto;
+    margin: 5px 34% -5px;
+  }
+  
+  #withoutIMG{
+    margin: 10px 30% -5px;
+    width: auto;
+    height: 120px;
+  }
+  
+  .dishName{
+    /* margin-left: 0; */
+    height: 50px;
+    text-align: center;
+  }
+  
+  .dishRecipte{
+    margin-left: 2%;
+    margin-right: 2%;
+    word-wrap: break-word;
+    overflow-y: auto;
+    height: 53%;
+  }
+  
+  #delete{
+    margin: 0 55%;
+  }

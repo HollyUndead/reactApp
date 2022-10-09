@@ -5,17 +5,26 @@ body {
 
 header{
     display: flex;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 30%;
     padding-right: 30%;
     margin-top: 0px;
     justify-content: space-around;
     background: rgb(194, 194, 194);
-    height: 30px;
     position: sticky;
     top: 0;
 }
   
 header>div{
     font-size: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+    background: rgb(42 42 42 / 49%);
+}
+
+button:hover:active{
+    background-color: rgb(255, 255, 255);
 }

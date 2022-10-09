@@ -27,8 +27,8 @@
 
 img{
   margin-top: 10px;
-  width: 70%;
-  margin-left: 15%;
+  width: 40%;
+  margin-left: 30%;
 }
 
 button{
@@ -38,8 +38,4 @@ button{
   background: rgba(104, 104, 104, 0.377);
   border: 0;
   border-radius: 20px;
-}
-
-button:hover{
-  background: rgb(42 42 42 / 49%);
 }

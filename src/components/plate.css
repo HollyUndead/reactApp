@@ -1,0 +1,21 @@
+#plates{
+    margin-bottom: 20px;
+}
+
+#CreateDish{
+    position: relative;
+    left: 80%;
+    bottom: 45px;
+    width: 200px;
+    font-size: 15px;
+}
+
+#empty{
+    display: none;
+}
+
+#likeEmpty{
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 40px;
+}
